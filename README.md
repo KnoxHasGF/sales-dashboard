@@ -1,16 +1,107 @@
-# React + Vite
+# Sales Dashboard (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **Sales Dashboard web application** built with **React JS and Vite**.  
+It is developed as a **group assignment** and follows all given requirements:
 
-Currently, two official plugins are available:
+- ✅ No backend (frontend only)
+- ✅ Uses **LocalStorage** for data persistence
+- ✅ Uses **only the provided product data file**
+- ✅ Deployed using **GitHub Pages**
+- ✅ Clean UI with charts and sales journal
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 👥 Team Members
+- Myat Phone Paye
+- Chan Nyein Thu  
+- (Add other member names here)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+> *No student ID included as instructed*
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌐 Live Demo (GitHub Pages)
+👉 **https://knoxhasgf.github.io/**
+
+(Replace `YOUR_USERNAME` with your GitHub username)
+
+---
+
+## 📦 GitHub Repository
+👉 **https://github.com/KnoxHasGF/sales-dashboard.git**
+
+---
+
+## 📸 Screenshots
+
+### Dashboard Page
+![Dashboard Screenshot](screenshots/dashboard.png)
+
+### Sales Journal Page
+![Sales Journal Screenshot](screenshots/sales-journal.png)
+
+> Screenshots should be placed inside a `screenshots/` folder in this repository.
+
+---
+
+## ✨ Application Features
+
+### 📊 Dashboard
+- Total sales (all time)
+- Sales summary (daily / monthly trend)
+- **Line Chart**: sales trend over time
+- **Pie Chart**: sales proportion by category (with color legend)
+- **Bar Chart**: top 5 selling items (multi-color)
+- Real-time updates from sales journal
+
+### 🧾 Sales Journal
+- Product selection from provided JSON file
+- Quantity and date input
+- Automatic total price calculation
+- Sales records stored in LocalStorage
+- Transaction table with item name, category, quantity, and total
+
+---
+
+## 🛠️ Tech Stack
+- React JS
+- Vite
+- Recharts (charts)
+- LocalStorage
+- GitHub Pages
+
+---
+
+## ▶️ Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+Then open:
+```
+http://localhost:5173
+```
+
+---
+
+## 🚀 Deployment
+
+```bash
+npm run deploy
+```
+
+Deployment is handled via **gh-pages** and published to GitHub Pages.
+
+---
+
+## 📄 Notes
+- No backend server is used
+- No mock or fake sales data
+- All charts update dynamically from real user input
+- UI designed for clarity and grading requirements
+
+---
+
+✅ **This project is ready for submission**
