@@ -14,9 +14,8 @@ It is developed as a **group assignment** and follows all given requirements:
 ## 👥 Team Members
 - Myat Phone Paye
 - Chan Nyein Thu  
-- (Add other member names here)
+- 
 
-> *No student ID included as instructed*
 
 ---
 
@@ -38,8 +37,6 @@ It is developed as a **group assignment** and follows all given requirements:
 
 ### Sales Journal Page
 ![Sales Journal Screenshot](screenshots/sales-journal.png)
-
-> Screenshots should be placed inside a `screenshots/` folder in this repository.
 
 ---
 
@@ -102,5 +99,3 @@ Deployment is handled via **gh-pages** and published to GitHub Pages.
 - UI designed for clarity and grading requirements
 
 ---
-
-✅ **This project is ready for submission**
