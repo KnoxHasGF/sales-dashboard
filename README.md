@@ -23,7 +23,6 @@ It is developed as a **group assignment** and follows all given requirements:
 ## 🌐 Live Demo (GitHub Pages)
 👉 **https://knoxhasgf.github.io/**
 
-(Replace `YOUR_USERNAME` with your GitHub username)
 
 ---
 
