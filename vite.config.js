@@ -1,7 +1,7 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
+  base: '/sales-dashboard/',
   plugins: [react()],
-  base: "/sales-dashboard/",   // 👈 MUST match repo name
-});
+})
